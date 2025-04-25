@@ -103,6 +103,21 @@ fun mostrarParesConLoops() {
 }
 
 
+/////////////////////        PASO 5             /////////////////////
+fun factorial(n: Int): Int {
+    return if (n <= 1) 1 else n * factorial(n - 1)
+}
+
+fun saludar(nombre: String, edad: Int) {
+    println("Hola $nombre, tienes $edad años")
+}
+
+fun calcularPotencia(base: Double, exponente: Int) {
+    val resultado = Math.pow(base, exponente.toDouble()) 
+    println("$base elevado a la potencia de $exponente es: $resultado")  
+}
+
+
 
 
 fun main() {
@@ -124,4 +139,11 @@ fun main() {
     println("///////PASO 4///////")
     mostrarNumerosConLoops()
     mostrarParesConLoops()
+
+    //PASO 5
+    println("///////PASO 4///////")
+    factorial(16)
+    saludar("Gonza", 16)
+    println(calcularPotencia(3.0, 5))
+
 }
