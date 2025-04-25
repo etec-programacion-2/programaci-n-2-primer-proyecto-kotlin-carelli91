@@ -4,7 +4,7 @@ package org.example
 //PASO 1
 fun mostrarNombreyFecha() {
     val nombre: String = "Gonza"
-    val fecha: String = "22/04/25"
+    val fecha: String = "25/04/25"
 
     println("Nombre: $nombre")
     println("Fecha: $fecha")
@@ -30,9 +30,16 @@ fun mostrarTiposDeDatos() {
 
 fun main() {
     //PASO 1
+    println("PASO 1")
     mostrarNombreyFecha()
 
     //PASO 2
+    println("PASO 2")
     mostrarTiposDeDatos()
+    calcularAreaRectangulo(5.5, 3.0)
 
+    //PASO 3
+    println("PASO 3")
+    println(esParOImpar(5))
+    println(esNegativoPositivo(-4))
 }
