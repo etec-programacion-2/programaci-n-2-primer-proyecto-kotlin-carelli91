@@ -1,15 +1,6 @@
 
 package org.example
 
-//PASO 1
-fun mostrarNombreyFecha() {
-    val nombre: String = "Gonza"
-    val fecha: String = "22/04/25"
-
-    println("Nombre: $nombre")
-    println("Fecha: $fecha")
-}
-
 //PASO 2
 fun mostrarTiposDeDatos() {
     val nombre: String = "Gonza"
@@ -25,9 +16,6 @@ fun mostrarTiposDeDatos() {
 
 
 fun main() {
-    //PASO 1
-    mostrarNombreyFecha()
-
     //PASO 2
     mostrarTiposDeDatos()
 
